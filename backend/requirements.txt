@@ -1,0 +1,18 @@
+# Web框架
+flask==2.3.3
+flask-cors==4.0.0  # 注意：不是flask-CORS
+
+# 科学计算核心
+numpy==1.24.3
+pandas==2.0.3
+scipy==1.11.1
+
+# 数据可视化（可选，但matplotlib需要）
+matplotlib==3.7.2
+
+# Python标准库（不需要安装，但这里列出用于参考）
+# json, math, datetime, typing, io, sys, os
+
+# 开发工具（可选）
+python-dotenv==1.0.0  # 环境变量管理
+requests==2.31.0       # HTTP客户端

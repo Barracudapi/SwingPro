@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "message": "网球击球分析完成",
+  "data": {
+    "strokes_detected": 0,
+    "timestamps": [],
+    "stroke_analysis": [],
+    "statistics": {
+      "total_data_points": 1588,
+      "stroke_rate": "0 strokes",
+      "data_duration_seconds": 317.6,
+      "average_interval": "N/A"
+    }
+  },
+  "analysis_info": {
+    "method": "tennis_stroke_detection",
+    "threshold_used": 300.0,
+    "window_size": 200,
+    "processing_time_ms": 20.45,
+    "version": "1.0.0"
+  },
+  "timestamp": "2025-12-11T22:16:05.023962"
+}

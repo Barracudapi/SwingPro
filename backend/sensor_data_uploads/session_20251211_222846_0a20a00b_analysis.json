@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "message": "网球击球分析完成",
+  "data": {
+    "strokes_detected": 4,
+    "timestamps": [
+      715,
+      1078,
+      1326,
+      1795
+    ],
+    "stroke_analysis": [
+      {
+        "stroke_id": 1,
+        "peak_acceleration": 13.838646212690024,
+        "peak_rotation": 239.14537180551918,
+        "avg_acceleration": 5.08797594825538,
+        "avg_rotation": 195.62060245175402,
+        "stroke_power": 3309.4481938187955,
+        "duration_points": 200,
+        "estimated_type": "非常强力击球"
+      },
+      {
+        "stroke_id": 2,
+        "peak_acceleration": 2.613794368346523,
+        "peak_rotation": 190.7113602332069,
+        "avg_acceleration": 1.7593656472619963,
+        "avg_rotation": 175.99642120573063,
+        "stroke_power": 498.4802793572612,
+        "duration_points": 200,
+        "estimated_type": "正常击球"
+      },
+      {
+        "stroke_id": 3,
+        "peak_acceleration": 11.613798086758699,
+        "peak_rotation": 252.70072267011824,
+        "avg_acceleration": 4.80199220145153,
+        "avg_rotation": 203.20675259949533,
+        "stroke_power": 2934.81516946876,
+        "duration_points": 200,
+        "estimated_type": "非常强力击球"
+      },
+      {
+        "stroke_id": 4,
+        "peak_acceleration": 12.211711878356777,
+        "peak_rotation": 238.3838072101375,
+        "avg_acceleration": 5.431996370593882,
+        "avg_rotation": 189.5928953967258,
+        "stroke_power": 2911.0743701159477,
+        "duration_points": 200,
+        "estimated_type": "非常强力击球"
+      }
+    ],
+    "statistics": {
+      "total_data_points": 2424,
+      "stroke_rate": "4 strokes",
+      "data_duration_seconds": 484.8,
+      "average_interval": "72.0秒"
+    }
+  },
+  "analysis_info": {
+    "method": "tennis_stroke_detection",
+    "threshold_used": 300.0,
+    "window_size": 200,
+    "processing_time_ms": 97.23,
+    "version": "1.0.0"
+  },
+  "timestamp": "2025-12-11T22:28:46.629901"
+}
