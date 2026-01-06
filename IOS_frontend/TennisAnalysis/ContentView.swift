@@ -26,7 +26,8 @@ struct ContentView: View {
         if showMainApp {
             MainTabView()
                 .transition(.move(edge: .trailing))
-        } else {
+            }
+            else {
             StartScreen(showMainApp: $showMainApp)
         }
     }
@@ -123,4 +124,8 @@ struct MainTabView: View {
         }
         .accentColor(.tennisBlue)
     }
+}
+
+#Preview {
+    ContentView()
 }

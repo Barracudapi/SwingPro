@@ -95,4 +95,6 @@ struct ProfileRow: View {
         }
         .padding()
     }
+    
+   
 }
