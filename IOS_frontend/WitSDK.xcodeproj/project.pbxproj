@@ -135,11 +135,18 @@
 			);
 			target = D4CA700528C3BFB2004EEAA2 /* WitSDK */;
 		};
+		2ABEF00D2F0E1D1B00BA5628 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Authentication/SignInEmailView.swift,
+			);
+			target = D4A23C5F2A11E1BF000A3ADF /* BleExample */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		576D4A202EE6A90B0015A8D8 /* PythonBridge */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = PythonBridge; sourceTree = "<group>"; };
-		576D4A382EE7F93B0015A8D8 /* TennisAnalysis */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (2ABEEFD82F0CE0D000BA5628 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 2ABEEFCB2F0CD35F00BA5628 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = TennisAnalysis; sourceTree = "<group>"; };
+		576D4A382EE7F93B0015A8D8 /* TennisAnalysis */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (2ABEEFD82F0CE0D000BA5628 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 2ABEF00D2F0E1D1B00BA5628 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 2ABEEFCB2F0CD35F00BA5628 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = TennisAnalysis; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +186,7 @@
 		D4A23C612A11E1BF000A3ADF /* BleExample */ = {
 			isa = PBXGroup;
 			children = (
+				576D4A382EE7F93B0015A8D8 /* TennisAnalysis */,
 				D4A23C682A11E1C0000A3ADF /* Preview Content */,
 				576D4A2E2EE6BD560015A8D8 /* ServerAnalysisManager.swift */,
 				576D4A202EE6A90B0015A8D8 /* PythonBridge */,
@@ -201,7 +209,6 @@
 			children = (
 				D4CA700828C3BFB2004EEAA2 /* WitSDK */,
 				D4A23C612A11E1BF000A3ADF /* BleExample */,
-				576D4A382EE7F93B0015A8D8 /* TennisAnalysis */,
 				D4CA70D228C3C718004EEAA2 /* Frameworks */,
 				D43B6E3F28C61231004376E0 /* WitSDK.framework */,
 				D4A23C602A11E1BF000A3ADF /* BleExample.app */,

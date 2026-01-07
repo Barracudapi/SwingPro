@@ -7,12 +7,12 @@
 		<key>BleExample.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<key>TennisAnalysis.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>0</integer>
 		</dict>
 		<key>WitSDK.xcscheme_^#shared#^_</key>
 		<dict>

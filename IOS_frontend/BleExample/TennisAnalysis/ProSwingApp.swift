@@ -17,7 +17,9 @@ struct ProSwingApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack{
+                RootView()
+            }
         }
     }
 }

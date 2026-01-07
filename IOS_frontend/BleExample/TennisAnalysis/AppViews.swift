@@ -717,5 +717,5 @@ struct IMUConnectionStatusView: View {
 
 
 #Preview {
-    ContentView()
+    AuthenticationView()
 }
